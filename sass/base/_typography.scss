@@ -1,2 +1,11 @@
 /* @TIPOGRAFÍA */
 /* ********** */
+
+//formato nav
+.menu{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: map-get($colores, blancoTipo);
+
+}
+

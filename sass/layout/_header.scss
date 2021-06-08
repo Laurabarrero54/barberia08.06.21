@@ -1,2 +1,66 @@
 /* @HEADERS */
 /* ********** */
+
+header{
+    background-image: url(../../img/desktop/faro_mar_profundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+}
+
+
+
+.contenido{
+    padding: 40px 90px;
+}
+
+.justificado{
+    display: flex;
+    align-items: center;
+}
+.contenido__navegador{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/span4;
+}
+
+.centro{
+    display: block;
+    width: 465px;
+    height: 490px;
+    background-color: #fff;
+}
+.contenido__inferior{
+    display: flex;
+    justify-content: space-between;
+    width: 695px;
+    grid-column: 2;
+    grid-row: 2;
+    align-self: flex-end;
+}
+
+.gridImg1{
+    background-image: url(../../img/desktop/montanya_sol_atardecer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 152px;
+}
+
+.gridImg2{
+    background-image: url(../../img/desktop/lago_tranquilo_barca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 152px;
+}
+
+.gridImg3{
+    background-image: url(../../img/desktop/montanya_amanecer_carretera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 152px;
+}
